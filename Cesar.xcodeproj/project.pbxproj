@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		34A786ED295B160700BC3501 /* Cesar.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A786EC295B160700BC3501 /* Cesar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34A786F4295B164600BC3501 /* Cesar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A786F3295B164600BC3501 /* Cesar.swift */; };
+		34A786F9295C22EE00BC3501 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 34A786F8295C22EE00BC3501 /* README.md */; };
+		34A786FB295C230200BC3501 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A786FA295C230200BC3501 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34A786E9295B160700BC3501 /* Cesar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cesar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A786EC295B160700BC3501 /* Cesar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cesar.h; sourceTree = "<group>"; };
 		34A786F3295B164600BC3501 /* Cesar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cesar.swift; sourceTree = "<group>"; };
+		34A786F8295C22EE00BC3501 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		34A786FA295C230200BC3501 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 		34A786DF295B160700BC3501 = {
 			isa = PBXGroup;
 			children = (
+				34A786FA295C230200BC3501 /* Package.swift */,
+				34A786F8295C22EE00BC3501 /* README.md */,
 				34A786EB295B160700BC3501 /* Cesar */,
 				34A786EA295B160700BC3501 /* Products */,
 			);
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A786F9295C22EE00BC3501 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A786FB295C230200BC3501 /* Package.swift in Sources */,
 				34A786F4295B164600BC3501 /* Cesar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +277,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -291,6 +299,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -308,7 +317,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -329,6 +338,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
