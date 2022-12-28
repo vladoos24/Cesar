@@ -8,7 +8,7 @@
 import Foundation
 
 public class Cesar {
-    public func cipher(messageToCipher: String, shift: Int) -> String {
+    public static func cipher(messageToCipher: String, shift: Int) -> String {
         var ciphredMessage = ""
 
         for char in messageToCipher.unicodeScalars {
