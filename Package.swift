@@ -15,7 +15,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Cesar"
+            name: "Cesar",
+            path: "Cesar"
         )
     ],
     swiftLanguageVersions: [.v5]
